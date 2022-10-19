@@ -1,0 +1,4 @@
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.wrl filter=lfs diff=lfs merge=lfs -text
+*.fpd filter=lfs diff=lfs merge=lfs -text
