@@ -45,7 +45,7 @@
   (pad "12" thru_hole circle (at 6.3 6.61) (size 1.8 1.8) (drill 1.02) (layers *.Cu *.Mask) (tstamp f1353e9e-7eae-44e9-872c-ec11c41e5657))
   (pad "S1" thru_hole circle (at -7.875 -0.93) (size 2.8 2.8) (drill 1.6) (layers *.Cu *.Mask) (tstamp f24ea7b2-ebfa-4ea1-8cae-6634f89d1c67))
   (pad "S2" thru_hole circle (at 7.875 -0.93) (size 2.8 2.8) (drill 1.6) (layers *.Cu *.Mask) (tstamp 754700b8-82bc-4d0e-926c-196988658878))
-  (model "3d/ARJC07-111071A.STEP"
+  (model "3d/Abracon-ARJC07-111071A.step"
     (offset (xyz 0 0 9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
