@@ -1,0 +1,36 @@
+# Symbol Libraries
+This directory has various symbol libraries. You should add all of these to your KiCad's global symbol table.
+
+- trist-ac-supply: AC mains power supplies
+- trist-adc: Analog to digital converters
+- trist-canbus: CAN bus transceivers and controllers
+- trist-connector: Miscellaneous connectors (MagJacks, etc.)
+- trist-dac: Digital to analog converters
+- trist-diode: Diodes
+- trist-display: Display panels and modules
+- trist-ethernet: Ethernet ICs
+- trist-i2c-device: Miscellaneous I²C devices
+- trist-io-expander: IO expanders (various interfaces)
+- trist-isolation: Digital isolator ICs
+- trist-led-driver: LED drivers
+- trist-level-conversion: Level conversion (buffers)
+- trist-logic: Discrete logic functions
+- trist-memory: Memory ICs (RAM, EEPROM, flash)
+- trist-microcontroller-arm: ARM-based microcontrollers
+- trist-module-compute: Compute modules
+- trist-module-radio: Radio modules
+- trist-mosfet: Various MOSFETs
+- trist-nfc: NFC ICs
+- trist-opamp: Analog opamps
+- trist-pmic: Power management ICs
+- trist-power: Power symbols
+- trist-protection: Circuit protection (ESD)
+- trist-relay: Relays
+- trist-sensor: Sensor ICs
+- trist-switch: Switches and buttons
+- trist-transformer: Transformers
+- trist-vreg-battery: Battery chargers
+- trist-vreg-linear: Linear regulators
+- trist-vreg-module: Voltage regulator modules
+- trist-vreg-reference: Voltage references
+- trist-vreg-switcher: Switching regulators
