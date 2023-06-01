@@ -106,11 +106,11 @@
       )
     )
   )
-  (symbol "NCP115ASN330T2G" (in_bom yes) (on_board yes)
+  (symbol "NCP115ASN330" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "NCP115AMX120TCG" (at 0 0 0)
+    (property "Value" "NCP115ASN330" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" (at 0 0 0)
@@ -128,13 +128,13 @@
     (property "ki_fp_filters" "OnSemi*XDFN4*1EP*1.0x1.0mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "NCP115ASN330T2G_0_1"
+    (symbol "NCP115ASN330_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
     )
-    (symbol "NCP115ASN330T2G_1_1"
+    (symbol "NCP115ASN330_1_1"
       (pin power_in line (at -10.16 2.54 0) (length 2.54)
         (name "IN" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
