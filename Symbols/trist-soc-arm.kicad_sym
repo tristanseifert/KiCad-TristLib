@@ -792,10 +792,6 @@
         (name "NAND_DQS" (effects (font (size 1.016 1.016))))
         (number "E6" (effects (font (size 1.016 1.016))))
       )
-      (pin unspecified line (at -16.51 -2.54 0) (length 2.54)
-        (name "NVCC_NAND" (effects (font (size 1.016 1.016))))
-        (number "E7" (effects (font (size 1.016 1.016))))
-      )
     )
     (symbol "MCIMX6Z0DVM09AB_9_1"
       (rectangle (start -13.97 0) (end 13.97 -35.56)
@@ -916,6 +912,10 @@
         (name "NVCC_GPIO3" (effects (font (size 1.016 1.016))))
         (number "E13" (effects (font (size 1.016 1.016))))
       )
+      (pin unspecified line (at -16.51 -30.48 0) (length 2.54)
+        (name "NVCC_NAND" (effects (font (size 1.016 1.016))))
+        (number "E7" (effects (font (size 1.016 1.016))))
+      )
       (pin power_in line (at 16.51 -38.1 180) (length 2.54) hide
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "E8" (effects (font (size 1.016 1.016))))
@@ -956,11 +956,11 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "F9" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at -16.51 -33.02 0) (length 2.54) hide
+      (pin power_in line (at 16.51 -33.02 180) (length 2.54) hide
         (name "VDD_ARM_CAP" (effects (font (size 1.016 1.016))))
         (number "G10" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at -16.51 -33.02 0) (length 2.54) hide
+      (pin power_in line (at 16.51 -33.02 180) (length 2.54) hide
         (name "VDD_ARM_CAP" (effects (font (size 1.016 1.016))))
         (number "G11" (effects (font (size 1.016 1.016))))
       )
@@ -988,19 +988,19 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "G7" (effects (font (size 1.016 1.016))))
       )
-      (pin unspecified line (at 16.51 -15.24 180) (length 2.54)
+      (pin unspecified line (at 16.51 -12.7 180) (length 2.54)
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "G8" (effects (font (size 1.016 1.016))))
       )
-      (pin unspecified line (at -16.51 -33.02 0) (length 2.54)
+      (pin unspecified line (at 16.51 -33.02 180) (length 2.54)
         (name "VDD_ARM_CAP" (effects (font (size 1.016 1.016))))
         (number "G9" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -20.32 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -40.64 0) (length 2.54) hide
         (name "VDD_SOC_IN" (effects (font (size 1.016 1.016))))
         (number "H10" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at -16.51 -33.02 0) (length 2.54) hide
+      (pin power_in line (at 16.51 -33.02 180) (length 2.54) hide
         (name "VDD_ARM_CAP" (effects (font (size 1.016 1.016))))
         (number "H11" (effects (font (size 1.016 1.016))))
       )
@@ -1020,19 +1020,19 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "H7" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "H8" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -20.32 180) (length 2.54)
+      (pin power_in line (at -16.51 -40.64 0) (length 2.54)
         (name "VDD_SOC_IN" (effects (font (size 1.016 1.016))))
         (number "H9" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -20.32 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -40.64 0) (length 2.54) hide
         (name "VDD_SOC_IN" (effects (font (size 1.016 1.016))))
         (number "J10" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "J11" (effects (font (size 1.016 1.016))))
       )
@@ -1056,19 +1056,19 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "J7" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "J8" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -20.32 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -40.64 0) (length 2.54) hide
         (name "VDD_SOC_IN" (effects (font (size 1.016 1.016))))
         (number "J9" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -20.32 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -40.64 0) (length 2.54) hide
         (name "VDD_SOC_IN" (effects (font (size 1.016 1.016))))
         (number "K10" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "K11" (effects (font (size 1.016 1.016))))
       )
@@ -1084,19 +1084,19 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "K7" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "K8" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -20.32 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -40.64 0) (length 2.54) hide
         (name "VDD_SOC_IN" (effects (font (size 1.016 1.016))))
         (number "K9" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "L10" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "L11" (effects (font (size 1.016 1.016))))
       )
@@ -1104,7 +1104,7 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "L12" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -2.54 180) (length 2.54)
+      (pin power_in line (at -16.51 -35.56 0) (length 2.54)
         (name "VDD_HIGH_IN" (effects (font (size 1.016 1.016))))
         (number "L13" (effects (font (size 1.016 1.016))))
       )
@@ -1120,11 +1120,11 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "L7" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "L8" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -15.24 180) (length 2.54) hide
+      (pin power_in line (at 16.51 -12.7 180) (length 2.54) hide
         (name "VDD_SOC_CAP" (effects (font (size 1.016 1.016))))
         (number "L9" (effects (font (size 1.016 1.016))))
       )
@@ -1140,7 +1140,7 @@
         (name "NGND_KEL0" (effects (font (size 1.016 1.016))))
         (number "M12" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -2.54 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -35.56 0) (length 2.54) hide
         (name "VDD_HIGH_IN" (effects (font (size 1.016 1.016))))
         (number "M13" (effects (font (size 1.016 1.016))))
       )
@@ -1160,11 +1160,11 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "M9" (effects (font (size 1.016 1.016))))
       )
-      (pin unspecified line (at 16.51 -10.16 180) (length 2.54)
+      (pin unspecified line (at 16.51 -22.86 180) (length 2.54)
         (name "VDD_SNVS_CAP" (effects (font (size 1.016 1.016))))
         (number "N12" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -2.54 180) (length 2.54) hide
+      (pin power_in line (at -16.51 -35.56 0) (length 2.54) hide
         (name "VDD_HIGH_IN" (effects (font (size 1.016 1.016))))
         (number "N13" (effects (font (size 1.016 1.016))))
       )
@@ -1180,7 +1180,7 @@
         (name "NVCC_DRAM_2P5" (effects (font (size 1.016 1.016))))
         (number "N6" (effects (font (size 1.016 1.016))))
       )
-      (pin power_in line (at 16.51 -7.62 180) (length 2.54)
+      (pin power_in line (at -16.51 -38.1 0) (length 2.54)
         (name "VDD_SNVS_IN" (effects (font (size 1.016 1.016))))
         (number "P12" (effects (font (size 1.016 1.016))))
       )
@@ -1192,12 +1192,12 @@
         (name "VSS" (effects (font (size 1.016 1.016))))
         (number "R11" (effects (font (size 1.016 1.016))))
       )
-      (pin unspecified line (at -16.51 -38.1 0) (length 2.54)
+      (pin power_in line (at 16.51 -2.54 180) (length 2.54)
         (name "VDD_HIGH_CAP" (effects (font (size 1.016 1.016))))
         (number "R14" (effects (font (size 1.016 1.016))))
       )
-      (pin unspecified line (at -16.51 -40.64 0) (length 2.54)
-        (name "VDD_HIGH_CAP2" (effects (font (size 1.016 1.016))))
+      (pin power_in line (at 16.51 -2.54 180) (length 2.54) hide
+        (name "VDD_HIGH_CAP" (effects (font (size 1.016 1.016))))
         (number "R15" (effects (font (size 1.016 1.016))))
       )
       (pin power_in line (at 16.51 -38.1 180) (length 2.54) hide
