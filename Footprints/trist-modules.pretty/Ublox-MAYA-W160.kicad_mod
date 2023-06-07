@@ -169,7 +169,7 @@
     )
   )
   (model "3d/ublox-MAYA-W160.step"
-    (offset (xyz -5.2 -7.15 0))
+    (offset (xyz -5.2 -7.15 0.43))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
