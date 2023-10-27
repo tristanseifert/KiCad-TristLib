@@ -388,7 +388,7 @@
     (property "Reference" "U" (at 0 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TPS82084" (at 0 8.89 0)
+    (property "Value" "TPS82085" (at 0 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 -16.51 0)
