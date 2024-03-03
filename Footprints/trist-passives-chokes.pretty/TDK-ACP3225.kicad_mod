@@ -44,7 +44,7 @@
   (pad "3" smd rect (at 1.4 0.575 90) (size 0.4 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0bc11c04-24b1-4434-8566-c08ff55855a8))
   (pad "4" smd rect (at 1.4 -0.575 90) (size 0.4 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b9522db7-199d-4de4-9eb5-c422202f6b9a))
   (model "3d/TDK-ACP3225.step"
-    (offset (xyz 35.25999779 -11.56000025 0.6199999955))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

@@ -1,0 +1,293 @@
+(footprint "Silvertel-Ag5400"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AG5412-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -7.4168 2.4384 180)
+		(layer "F.SilkS")
+		(uuid "c1569019-ca4c-4029-9a7d-bc93d4a5c0af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "AG5412"
+		(at 23.54 0.43 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "beb3a223-9050-472b-b8eb-06207a4729b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5891a8b7-8d9a-4cd8-b9b9-b3a1cab370b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://silvertel.com/images/datasheets/Ag5400-datasheet-high%20Efficiency-30W-Power-Over-Ethernet-Plus-Module-PoE+PD.pdf"
+		(at 0 -12.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc146f05-820f-4968-b6e6-fcc1bca2fb12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ace17d4f-ef8d-43b1-9b94-9ad028d7999c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.7 0)
+		(end -5.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dbfcfdf-05f0-4315-a5d0-13af5415c69d")
+	)
+	(fp_line
+		(start -5.6 0)
+		(end -5.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1607ffce-97b1-4cbe-aad2-28ced44a0287")
+	)
+	(fp_arc
+		(start -5.7 0)
+		(mid -5.65 -0.05)
+		(end -5.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9199122d-8003-437f-816b-459eb9415973")
+	)
+	(fp_arc
+		(start -5.6 0)
+		(mid -5.65 0.05)
+		(end -5.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a9362ba-5c4d-4336-8c85-4b11652a4a91")
+	)
+	(fp_line
+		(start -7.43 2.46)
+		(end -7.43 -8.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b47f000-5f37-4fed-996e-fbd068968bb8")
+	)
+	(fp_line
+		(start -7.43 2.46)
+		(end 18.82 2.46)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "08c0812f-e2a8-4e9f-829b-0053c0bc09c7")
+	)
+	(fp_line
+		(start 18.82 2.46)
+		(end 18.82 10.96)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8254bb3-ed65-4943-b181-a62feccff2c2")
+	)
+	(fp_line
+		(start 36.82 4.46)
+		(end 54.57 4.46)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a005db1-e45a-4544-8855-2f1ec4b7135e")
+	)
+	(fp_line
+		(start 36.82 10.96)
+		(end 18.82 10.96)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2be0405a-7d8c-4ea2-8499-3fdf5ea81b2a")
+	)
+	(fp_line
+		(start 36.82 10.96)
+		(end 36.82 4.46)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d257a5fa-0981-434c-b99a-849109b92c90")
+	)
+	(fp_line
+		(start 54.57 -8.54)
+		(end -7.43 -8.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c5bbe4d-2154-48f1-a884-c33786909390")
+	)
+	(fp_line
+		(start 54.57 4.46)
+		(end 54.57 -8.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5567a890-062c-4c52-9bc9-207efb0c868d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 23.54 0.43 0)
+		(layer "F.Fab")
+		(uuid "8cbd0b72-b5b0-42b5-9532-cd58be4b2540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8465b7a-50b4-4cd3-bb80-42b7ebcbdebe")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d032de28-8587-42c2-8199-1795565f4b1f")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80cb1009-ab76-4556-9861-1202a3f859e4")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39782ef1-1dbf-4e1f-9afc-9cb100d98496")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b54dc662-8e04-4673-9fdc-3e70daab5fe8")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b99d1a5-379c-4846-96af-b5eb89cf78d3")
+	)
+	(pad "7" thru_hole circle
+		(at 43.18 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fedc0f8-05c2-4215-ad77-422565897f61")
+	)
+	(pad "8" thru_hole circle
+		(at 45.72 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9837cae1-0c9b-42e0-b540-f9298667cfec")
+	)
+	(pad "9" thru_hole circle
+		(at 48.26 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5888551-a580-4c56-96f7-00701fc3e671")
+	)
+	(pad "10" thru_hole circle
+		(at 50.8 0)
+		(size 1.75 1.75)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89b5f53f-9cb6-4e08-95c3-d58f90182443")
+	)
+	(model "3d/Silvertel-Ag5400.step"
+		(offset
+			(xyz -5.1 9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
