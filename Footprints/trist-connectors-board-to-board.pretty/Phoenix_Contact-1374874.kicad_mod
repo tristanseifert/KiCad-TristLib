@@ -1,0 +1,315 @@
+(footprint "Phoenix_Contact-1374874"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD female connector, nominal current: 2.1 A, Test voltage: 840 V AC, number of positions: 16, pitch: 1.27 mm, color: black, contact surface: Gold, contact connection type: Socket, mounting: SMD soldering")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ae78e19e-3b97-4112-b9a3-c4b4dfefa25b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Phoenix Contact 374874"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa6e5c80-60d2-48b4-9db7-d502d34ea55f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c08b0c65-5b33-417c-971d-09026b4e73ea")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a2bd053-f028-4845-9f5a-1210873c2368")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e28d82f-59bf-4c72-b0bf-9e6537ca6960")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -5.207 3.683)
+		(end -4.953 3.683)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d1b76a91-44c1-4119-b6f8-2384cd9a0752")
+	)
+	(fp_line
+		(start -8.625 -4.8)
+		(end 8.625 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d397d9fe-d24a-4a01-b760-83694e92a3f0")
+	)
+	(fp_line
+		(start -8.625 4.8)
+		(end -8.625 -4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24f83497-fbd8-4796-814c-bf840d3eacfe")
+	)
+	(fp_line
+		(start 8.625 -4.8)
+		(end 8.625 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbcab190-9ccf-4a8c-894c-8a0510547aa9")
+	)
+	(fp_line
+		(start 8.625 4.8)
+		(end -8.625 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c82c3d5c-f131-4de9-aaa5-52d8ed19ba02")
+	)
+	(fp_line
+		(start -7.625 -2.1)
+		(end -7.625 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12fecda0-504c-47f7-a0d6-0996a90c827f")
+	)
+	(fp_line
+		(start -7.625 2.1)
+		(end 7.625 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1029845-d61f-476d-bba4-871798221681")
+	)
+	(fp_line
+		(start 7.625 -2.1)
+		(end -7.625 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48c43b2c-cd0c-46d2-9689-43d0f7bda9f2")
+	)
+	(fp_line
+		(start 7.625 2.1)
+		(end 7.625 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46d572af-e590-4ee6-9d1f-d311e31deb8d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8dba3207-d2ce-4d3b-8999-8a2ae72639a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -6.655 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "47f15243-f15f-4a02-9377-2a1886a87e6a")
+	)
+	(pad "" np_thru_hole circle
+		(at 6.655 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5f8de73c-a392-4b60-a20e-c5d2fa46e5d8")
+	)
+	(pad "MP" smd rect
+		(at -6.955 -2.425)
+		(size 1.2 2.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3050c200-23a9-4c14-9ad2-dc8ff86304c5")
+	)
+	(pad "MP" smd rect
+		(at -6.955 2.425)
+		(size 1.2 2.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "393e9f7e-262b-4783-941d-c8cba70c50b9")
+	)
+	(pad "MP" smd rect
+		(at 6.955 -2.425)
+		(size 1.2 2.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9976303d-948d-499b-b839-0e1a347abfb4")
+	)
+	(pad "MP" smd rect
+		(at 6.955 2.425)
+		(size 1.2 2.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ccb508a-4edc-4d88-bf9e-eb8736d87f01")
+	)
+	(pad "a1" smd rect
+		(at -4.445 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "531a4915-b739-417b-b39b-a8eba95d728c")
+	)
+	(pad "a2" smd rect
+		(at -3.175 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "705b0fc4-31c8-47d6-8a31-2bd38ec23bd6")
+	)
+	(pad "a3" smd rect
+		(at -1.905 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f0b1f90-4e6e-4f0b-aa67-0582866d91db")
+	)
+	(pad "a4" smd rect
+		(at -0.635 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e14f1335-3efc-488e-8e91-e02ef738abbb")
+	)
+	(pad "a5" smd rect
+		(at 0.635 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "80fbcdcc-921d-4580-8f58-bef1a8b926dc")
+	)
+	(pad "a6" smd rect
+		(at 1.905 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8fafd57d-f159-4f07-a407-29a998cf40cb")
+	)
+	(pad "a7" smd rect
+		(at 3.175 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e9e3a84f-508c-47dc-88ad-9e4d245af14f")
+	)
+	(pad "a8" smd rect
+		(at 4.445 2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c374019-10f1-4254-a0b8-f7bd93252f4a")
+	)
+	(pad "b1" smd rect
+		(at -4.445 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc6a357f-6d11-40e0-b89f-e5fb5542721a")
+	)
+	(pad "b2" smd rect
+		(at -3.175 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6f99ff92-2e4c-42d6-800e-d7db82f8e28e")
+	)
+	(pad "b3" smd rect
+		(at -1.905 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d5b70d60-2f5e-431e-aab3-b6945c68a6af")
+	)
+	(pad "b4" smd rect
+		(at -0.635 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6c5bff91-657e-4a34-8153-6206fb097995")
+	)
+	(pad "b5" smd rect
+		(at 0.635 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "31a7e75a-475a-4b42-b703-34772546ada8")
+	)
+	(pad "b6" smd rect
+		(at 1.905 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3e24f4cb-e211-4ec8-926f-27406885f438")
+	)
+	(pad "b7" smd rect
+		(at 3.175 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46857fbf-9276-40a0-8cec-a8187a73d8c4")
+	)
+	(pad "b8" smd rect
+		(at 4.445 -2.75)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da1945d4-d310-42e4-bfd2-7da6e03181d3")
+	)
+	(model "3d/Phoenix_Contact-1374874.step"
+		(offset
+			(xyz -7.619999771 -2.099999873 0.04999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
